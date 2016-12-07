@@ -1,0 +1,12 @@
+RewriteEngine On
+
+RewriteBase /gpclib
+
+RewriteCond %{QUERY_STRING} ^(.*)s=(.*)$
+RewriteRule ^ /index.php?%1sid=%2
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ /index.php [QSA]
+
+RewriteCond %{REQUEST_FILENAME} \.php$
+RewriteRule ^ /index.php [QSA]

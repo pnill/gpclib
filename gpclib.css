@@ -1,0 +1,48 @@
+#code {
+	border: none;
+	background: none;
+	box-shadow: none;
+	padding: 0;
+	border-radius: 0;
+	white-space: pre;
+	overflow: auto;
+}
+
+#codepre {
+	word-wrap: normal;
+	font-size: 13px;
+	line-height: 20px;
+	margin-top: 0;
+	border-top-left-radius: 0;
+	border-top-right-radius: 0;
+}
+
+#codeheader {
+	background: #f5f2f0;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border: 1px solid #1b1b1d;
+	border-bottom-width: 0;
+}
+
+h5 {
+	line-height: 20px;
+}
+
+.gpclib_tw100, .gpclib_theader {
+	width:100%;
+}
+
+.gpclib_lrow, .gpclib_theader {
+	background: url('../wp-content/themes/yoo_catalyst_wp/images/module_line_v.png') repeat-x scroll left bottom transparent;
+}
+
+.gpclib_lrow {
+	margin-bottom:14px;
+	padding-bottom:18px;
+}
+
+.gpclib_lcell {
+	padding-left:5px;
+	background: url('../wp-content/themes/yoo_catalyst_wp/images/module_line_h.png') repeat-y scroll left top transparent;
+}

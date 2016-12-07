@@ -1,0 +1,9 @@
+RewriteEngine On
+
+RewriteBase /gpclib/api
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ index.php [QSA,L]
+
+RewriteCond %{REQUEST_FILENAME} !index.php
+RewriteRule ^ /gpclib [R]

@@ -1,0 +1,60 @@
+/* GPC Code Block
+---------------------------------------- */
+.scriptcode {
+	margin: 5px 0 0 0;
+	padding: 0;
+	color: #000000;
+	font-family: "Lucida Grande", "Trebuchet MS", Verdana, Helvetica, Arial, sans-serif;
+}
+
+.scriptcode * {
+	text-shadow:none;
+	font-size: small;
+}
+
+dl.codebox {
+	padding: 3px;
+	background-color: #FFFFFF;
+	border: 1px solid #C9D2D8;
+	border-radius: 5px;
+   -moz-border-radius: 5px;
+	box-shadow: 3px 3px 5px #000000;
+}
+
+dl.codebox dt {
+	text-transform: uppercase;
+	border-bottom: 1px solid #CCCCCC;
+	margin-bottom: 3px;
+	padding: 3px 6px 3px 6px;
+	font-size: 10px;
+	font-weight: bold;
+	display: block;
+}
+
+dl.codebox a {
+	font-size: 10px;
+	color: #005DBB;
+}
+
+dl.codebox dd {
+	margin: 0;
+	padding: 0 5px 0 5px;
+}
+
+blockquote dl.codebox {
+	margin-left: 0;
+}
+
+.syntaxbg		{ color: #FFFFFF; }
+.syntaxcomment	{ color: #FF8000; }
+.syntaxdefault	{ color: #0000BB; }
+.syntaxhtml		{ color: #000000; }
+.syntaxkeyword	{ color: #007700; }
+.syntaxstring	{ color: #DD0000; }
+
+.gpc_bg			{ color: #FFFFFF; }
+.gpc_default	{ color: #000000; }
+.gpc_number		{ color: #FF0000; }
+.gpc_keyword1	{ color: #0000FF; font-weight: bold; }
+.gpc_keyword2	{ color: #316AC5; }
+.gpc_comment	{ color: #008000; }
